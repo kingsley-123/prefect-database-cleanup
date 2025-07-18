@@ -1,5 +1,5 @@
 ```markdown
-# Prefect Database Cleanup
+## Prefect Database Cleanup
 
 **Enterprise-grade database maintenance toolkit for Prefect deployments. Proven to process 94,000+ records/second and reduce storage costs by 85%.**
 
