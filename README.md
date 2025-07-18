@@ -1,4 +1,3 @@
-```markdown
 ## Prefect Database Cleanup
 
 **Enterprise-grade database maintenance toolkit for Prefect deployments. Proven to process 94,000+ records/second and reduce storage costs by 85%.**
@@ -70,7 +69,7 @@ if health['needs_cleanup']:
 
 ## Key Features
 
-### 🔍 Intelligent Monitoring
+### Intelligent Monitoring
 ```python
 monitor = DatabaseMonitor()
 print(monitor.size_summary())
@@ -87,7 +86,7 @@ print(monitor.size_summary())
 #   events: 1,314 records
 ```
 
-### 🗑️ Flexible Retention Policies
+### Flexible Retention Policies
 ```python
 from prefect_cleanup import RetentionPolicy
 
@@ -100,7 +99,7 @@ policy = RetentionPolicy.quarterly()  # 90 days
 policy = RetentionPolicy.custom(days=45)
 ```
 
-### 💾 Enterprise Backup System
+### Enterprise Backup System
 ```python
 backup = BackupHandler()
 backup_path = backup.create()          # Auto-timestamped backup
@@ -238,13 +237,10 @@ MIT License - see LICENSE file for details.
 
 ## Support
 
-- 📖 **Documentation**: See `examples/` directory
-- 🧪 **Testing**: Run `python big_data_test.py` for full validation
-- 🐛 **Issues**: Report bugs on GitHub Issues
-
----
+- **Documentation**: See `examples/` directory
+- **Testing**: Run `python big_data_test.py` for full validation
+- **Issues**: Report bugs on GitHub Issues
 
 **Built to solve a real enterprise problem in the Prefect community.**
 
 *Proven performance. Real cost savings. Enterprise ready.*
-```
